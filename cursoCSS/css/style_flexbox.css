@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    background: purple;
+    display: flex;
+    /* acomoda los elementos de manera horizontal */
+    /* justify-content: space-between; */
+    /* deja un espacio entre los elements */
+    /* justify-content: center; */
+    /* centra los elementos de manera horizontal */
+    /* justify-content: end; */
+    /* mueve los elementos en la parte final a la derecha */
+    justify-content: space-around;
+    /* margenes entre los elementos rodeados de manera uniforme */
+    /* flex-direction: column; */
+    /* acomoda los elementos de manera vertical */
+    /* flex-direction: column-reverse; */
+    /* acomoda los elementos de manera vertical de manera acendente */
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    padding: 1em;
+}
+
+.contenedor > div {
+    margin: 1em;
+    background: cyan;
+    height: 100px;
+    width: 100px;
+    color: blue;
+}
+.contenedor div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

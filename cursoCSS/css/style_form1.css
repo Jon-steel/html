@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "cook";
+    src: url(cook/Cookie-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: "cook";
+    font-size: 2em;
+    
+    
+}
+ul{
+    background: black;
+    font-family: "cook";
+    list-style: none;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+ul li {
+    display: inline-block;
+    margin-right: 1em;
+}
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+}
+ul li a:hover {
+    color: black;
+    background: white;
+    border-radius: 5px;
+}
+
+.contenedor {
+    width: 40%;
+    margin: 5em auto;
+    
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+   
+}
+
+.contenedor h1 {
+    background: #111;
+    color: #fff;
+    padding: 0 0.8em;
+    width: 100%;
+}
+
+.contenedor form {
+    /* selector de etiqueta loque esta en el contenedor */
+    width: 100%;
+    /* background: red; */
+    padding: 0 1em;
+}
+
+.contenedor form label {
+    width: 100%;
+    display: block;
+    margin: 0.3em 0;
+    padding: 1em 1em 0 1em;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 1em 1em 1em 1em;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+}
+input[type=password]{
+    width: 100%;
+    padding: 1em 1em 1em 1em;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+}
+textarea{
+    width: 100%;
+    padding: 0.25em 0 0.25em 0.25em;
+    outline: none;
+    resize: none;
+    border-bottom: 0.5em;
+}
+
+input[type=text]:hover{
+    border-bottom: 2px solid #111;
+    transition: 1s all ease;
+}
+
+.btn-group {
+    width: 100%;
+    margin-top: 1em;
+    
+}
+.btn-group a{
+    text-decoration: none;
+    border: none;
+    background: #ccc;
+    border-radius: 5%;
+    color: #111;
+    padding: 0.2em 1em;
+    margin: 0 0 0 0.5em;
+
+}
+.btn-group input{
+    text-decoration: none;
+    border: none;
+    background: #111;
+    border-radius: 5%;
+    color: #ccc;
+    padding: .2em 1em;
+    font-family: cook;
+    font-size: .9em;
+    margin: 0 0 0.5em 5em;
+}
+

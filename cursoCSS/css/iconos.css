@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "cook";
+    src: url(cook/Cookie-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+a{
+    font-size: 2em;
+    font-family: "cook";
+}
+a i{
+    color:cyan;
+    background:black;
+    
+}

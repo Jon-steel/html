@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin-top: 5em;
+    background: rgb(46, 43, 43);
+}
+
+@font-face {
+    font-family: "cook";
+    src: url(cook/Cookie-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "shadow";
+    src: url(shadow/ShadowsIntoLight-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+ul{
+    background: black;
+    font-family: "cook";
+    list-style: none;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+ul li {
+    display: inline-block;
+    margin-right: 1em;
+}
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 0.2em;
+}
+ul li a:hover {
+    color: black;
+    /*border-bottom: 3px solid #fff;*/
+    /*border: 1px solid #fff;*/
+    background: white;
+    border-radius: 10px;
+}
+p {
+    font-size: 2em;
+    font-family: "cook";
+    color: #fff;
+}
+.contenedor {
+    width: 70%;
+    margin: 10em auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    border: 1px solid black;
+    padding: 1em;
+
+}
+.contenedor h2{
+    width: 100%;
+    margin-bottom: 1em;
+    color:darkgray;
+    font-family: "shadow";
+    font-size: 2em;
+}
+.contenedor hr {
+    width: 100%;
+    margin-bottom: 1em;
+    height: 2px;
+    background: cyan;
+    border: none;
+    border-radius: 2px;
+    
+}

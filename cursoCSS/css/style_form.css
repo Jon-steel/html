@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "cook";
+    src: url(cook/Cookie-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: "cook";
+    font-size: 2em;
+    background: cyan;
+    
+}
+
+ul{
+    /* background: #fff; */
+    font-family: "cook";
+    list-style: none;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+ul li {
+    display: inline-block;
+    margin-right: 1em;
+}
+ul li a {
+    color: black;
+    text-decoration: none;
+    padding: .7em;
+}
+ul li a:hover {
+    color: black;
+    background: white;
+    border-radius: 50px;
+}
+p {
+    font-size: 1em;
+    font-family: "cook";
+    color: #fff;
+}

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    /* margen hacia arriba */
+    padding: 0;
+    /* margenes a los lados */
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background:cyan;
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5px;
+
+}
+nav{
+    background: black;
+    color:white;
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 1.5em;
+    position: fixed;
+    z-index: 2000;
+}
+.absoluto{
+    position: absolute;
+    top:100px;
+    right:0;
+    bottom:0;
+    left:410px;
+    border-radius: 50%;
+}
+.absoluto1{
+    position: absolute;
+    top:100px;
+    bottom:0;
+    left:832px;
+    border-radius: 50%;
+}
+.absoluto2{
+    position: absolute;
+    top:100px;
+    right:0;
+    bottom:0;
+    left:500px;
+}
+.absoluto3{
+    position: absolute;
+    top:180px;
+    right: 300px;
+    bottom: 2px;
+    left: 500px;
+    width: 25%;
+    height: 350px;
+}
+.absoluto4{
+    position: fixed;
+    top:528px;
+    right:0;
+    left:400px;
+}
+.relativo{
+    position:fixed;
+    top: 528px;
+    right: 0;;
+    bottom: 100px;;
+    left:842px; 
+
+}
+

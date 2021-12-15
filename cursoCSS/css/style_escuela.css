@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin-top: 5em;
+    background: black;
+}
+
+@font-face {
+    font-family: "cook";
+    src: url(cook/Cookie-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "shadow";
+    src: url(shadow/ShadowsIntoLight-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+ul{
+
+    font-family: "cook";
+    list-style: none;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+ul li {
+    display: inline-block;
+    margin-right: 1em;
+}
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 3em;
+    margin: 1em;
+    padding: 0.5em;
+}
+ul li a:hover {
+    color: black;
+    /*border-bottom: 3px solid #fff;*/
+    /*border: 1px solid #fff;*/
+    background: white;
+    border-radius: 10px;
+}
+
+/*.contenedor {
+    width: 70%;
+    margin: 10em auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    border: 1px solid black;
+    padding: 1em;
+
+}*/
+.contenedor{
+    /* background: purple; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    font-family: "cook";
+    font-size: 3em;
+}
+
+.contenedor > div {
+    margin: 1em;
+    background: white;
+    height: 250px;
+    width: 250px; 
+}
+.contenedor div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor div a{
+    text-decoration: none;
+    color: black;
+}
+.contenedor1 {
+    width: 70%;
+    margin: 3em auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    border: 1px solid black;
+    padding: 1em;
+    background: white;
+
+}
+.contenedor1 h2{
+    width: 100%;
+    margin-bottom: 1em;
+    color:darkgray;
+    font-family: "shadow";
+    font-size: 2em;
+}
+.contenedor1 hr {
+    width: 100%;
+    margin-bottom: 1em;
+    height: 2px;
+    background: cyan;
+    border: none;
+    border-radius: 2px;
+    
+}
+p {
+    font-size: 2em;
+    font-family: "cook";
+    color: black;
+}
+

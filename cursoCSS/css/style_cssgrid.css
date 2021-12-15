@@ -1,0 +1,40 @@
+.grid{
+    display: grid;
+    /* grid-template-columns: repeat(4,4fr); */
+    /* dividir la pantalla de acuerdo el numero colocado */
+    /* grid-template-columns: 400px 33% 33%; */
+    /* toma pociocion de las columas en la pagina */
+    /* grid-template-rows: auto 100px; */
+    /* los cuadritos se ajusten a toda la pantalla */
+    background: red;
+    padding: 1em;
+    /* gap: 20px; */
+    /* separacion de cuadritos */
+    /* column-gap: 20px;  */
+    /* row-gap: 20px; */
+    /* muestra las filas de manera horisontal */
+    /* justify-items: end; */
+    /* abarcar lo mas que se pueda de la pantalla */
+    /* grid-auto-rows: minmax(100px, auto); */
+    /* se auto ajuste a la pantalla */
+    gap: 20px;
+
+}
+.grid div {
+    background: darkgrey;
+    padding: 1em;
+}
+.grid > div:hover{
+    border:1px solid black;
+}
+.nested-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 100px;
+    gap: 1em;
+}
+.nested-grid > div{
+    border: 1px solid red;
+    background: purple;
+    padding: 1em;
+}

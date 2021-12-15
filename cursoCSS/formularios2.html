@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios CSS</title>
+    <link rel="stylesheet" href="css/style_form.css">
+</head>
+<body>
+    <ul>
+        <li><a href="formularios3.html">Iniciar Sesion</a></li>
+        <li><a href="formularios2.html">Registro</a></li>
+    </ul>
+    <div class="contenedor">
+        <h1>Registro de Usuarios</h1> 
+        <form action="#" method="post">
+           
+            <label for="nombre">Nombre:</label> 
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe un Nombre">
+            
+            <label for="apellidos">Apellidos:</label> 
+            <input type="text" name="apellidos" id="apellidos" placeholder="Escribe los Apellidos">
+            
+            <label for="direccion">Direccion:</label> 
+            <input type="text" name="direccion" id="direccion" placeholder="Ingresar Direccion">
+            
+            <label for="usuario">Usuario:</label> 
+            <input type="text" name="usuario" id="usuario" placeholder="Ingresa tu Usuario">
+            
+            <label for="comentarios">Comentarios:</label>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Ingresa tus Comentarios"></textarea>
+            
+            <div class="btn-group">
+                <a href="">Cancelar</a>
+                <input type="submit" name="" value="Registrar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

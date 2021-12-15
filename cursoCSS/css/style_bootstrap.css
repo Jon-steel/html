@@ -1,0 +1,13 @@
+.contenedor{
+    background: cyan;
+    color: blue;
+}
+@font-face {
+    font-family: "cook";
+    src: url(cook/Cookie-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+div p {
+    font-family:"cook" ;
+}
